@@ -14,30 +14,53 @@
     <img src="images/mtpl1.jpg"/>
     <p>Please fill in the following information in order to receive your MTPL Quote:</p>
     <br>
-    <form>
-        <label>
-            First(Given) Name:
-            <input type="text">
-        </label>
+    <label>
+        Vehicle's Type:
+        <input type="radio" name= "Vehicle's Type" value="car"> car
+        <input type="radio" name= "Vehicle's Type" value="motorcycle"> motorcycle
+        <input type="radio" name= "Vehicle's Type" value="truck"> truck
+        <input type="radio" name= "Vehicle's Type" value="bus"> bus
+        <input type="radio" name= "Vehicle's Type" value="trailer"> trailer
         <br>
-        <label>
-            Middle Name:
-            <input type="text">
-        </label>
-        <br>
-        <label>
-            Last(Surname) Name:
-            <input type="text">
-        </label>
-        <br>
+    </label>
+    
         <label>
             Age:
             <input type="radio" name= "Age" value="under 25"> under 25
             <input type="radio" name= "Age" value="25 - 65"> 25 - 65
             <input type="radio" name= "Age" value="over 65"> over 65
-            <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to proceed with policy issuing.</mark>
+            <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to proceed with policy issuance.</mark>
             <br>
         </label>
-        <input type="submit"/>
+        <input type="submit" value="Proceed with policy issuance"/> 
+        or
+        <input type="submit" value="Thanks for the quote!"/>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <label>
+                First(Given) Name:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Middle Name:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Last(Surname) Name:
+                <input type="text">
+            </label>
+            <br>
+            <label>
+                Personal (ID) Number:
+                <input type="number">
+            </label>
+            <br>
+            <input type="submit" value="Sign"/> 
 </body>
 </html>
