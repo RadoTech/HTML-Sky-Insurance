@@ -4,3 +4,8 @@
 td, th {
     border: 1px solid lightskyblue
 }
+aside {
+    display: -moz-inline-stack;
+    text-align: right
+    
+}
