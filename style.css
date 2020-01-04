@@ -10,6 +10,32 @@ aside {
     
 }
 #Note {
-    color: red
+    color: red;
+    background-color: lightsteelblue;
+    text-decoration: underline;
 }
 a { text-decoration: none; }
+body {
+    background-color: lightsteelblue;
+}
+input[type=button] {
+        background-color: #2977c9;
+        color: #fff;
+        font-weight: normal;
+        border-radius: 15px;
+        font-size: large;
+        padding: 12px 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+        outline:none;       
+}
+input[type=text],[type=number] {
+    background-color: #2977c9;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 15px;
+    font-size: large;
+    padding: 8px 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

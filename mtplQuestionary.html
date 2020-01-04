@@ -1,66 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Questionary</title>
 </head>
-<p><h1>Motor Third Party Liability</h1></p>
-<p><h1>Questionary</h1></p>
+<p>
+    <h1>Motor Third Party Liability</h1>
+</p>
+<p>
+    <h1>Questionary</h1>
+</p>
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <body>
-    <img src="images/mtpl1.jpg"/>
+    <img src="images/mtpl1.jpg" />
     <p>Please fill in the following information in order to receive your MTPL Quote:</p>
     <br>
     <label>
         Vehicle's Type:
-        <input type="radio" name= "Vehicle's Type" value="car"> car
-        <input type="radio" name= "Vehicle's Type" value="motorcycle"> motorcycle
-        <input type="radio" name= "Vehicle's Type" value="truck"> truck
-        <input type="radio" name= "Vehicle's Type" value="bus"> bus
-        <input type="radio" name= "Vehicle's Type" value="trailer"> trailer
+        <input type="radio" name="Vehicle's Type" value="car"> car
+        <input type="radio" name="Vehicle's Type" value="motorcycle"> motorcycle
+        <input type="radio" name="Vehicle's Type" value="truck"> truck
+        <input type="radio" name="Vehicle's Type" value="bus"> bus
+        <input type="radio" name="Vehicle's Type" value="trailer"> trailer
         <br>
     </label>
-    
+
+    <label>
+        Age:
+        <input type="radio" name="Age" value="under 25"> under 25
+        <input type="radio" name="Age" value="25 - 65"> 25 - 65
+        <input type="radio" name="Age" value="over 65"> over 65
+        <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to
+            proceed with policy issuance.</mark>
+        <br>
+    </label>
+    <input type="button" value="Get quote!"/>
+    or
+    <input type="button" value="Proceed with policy issuance"/>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form>
         <label>
-            Age:
-            <input type="radio" name= "Age" value="under 25"> under 25
-            <input type="radio" name= "Age" value="25 - 65"> 25 - 65
-            <input type="radio" name= "Age" value="over 65"> over 65
-            <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to proceed with policy issuance.</mark>
-            <br>
+            First(Given) Name:
+            <input type="text">
         </label>
-        <input type="submit" value="Proceed with policy issuance"/> 
-        or
-        <input type="submit" value="Thanks for the quote!"/>
         <br>
+        <label>
+            Middle Name:
+            <input type="text">
+        </label>
         <br>
+        <label>
+            Last(Surname) Name:
+            <input type="text">
+        </label>
         <br>
+        <label>
+            Personal (ID) Number:
+            <input type="number">
+        </label>
         <br>
-        <br>
-        <form>
-            <label>
-                First(Given) Name:
-                <input type="text">
-            </label>
-            <br>
-            <label>
-                Middle Name:
-                <input type="text">
-            </label>
-            <br>
-            <label>
-                Last(Surname) Name:
-                <input type="text">
-            </label>
-            <br>
-            <label>
-                Personal (ID) Number:
-                <input type="number">
-            </label>
-            <br>
-            <input type="submit" value="Sign"/> 
+        <input type="button" value="Sign"/>
 </body>
+
 </html>
