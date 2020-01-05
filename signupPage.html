@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <title>Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="styleLogin.css">
+</head>
+
+<body>
+    <div id="login-box">
+        <div class="left-box">
+            <h1> Sign Up</h1>
+            <input type="text" name="username" placeholder="User Name" />
+            <input type="text" name="email" placeholder="E-mail" />
+            <input type="password" name="password" placeholder="Password" />
+            <input type="password" name="password2" placeholder="Retype password" />
+            <input type="submit" name="signup-button" placeholder="Sign Up" />
+        </div>
+        <div class="right-box">
+            <span class="signinwith">Sign in with<br/>Social Network
+            </span>
+            <button class="social apple">Log in with Apple</button>
+            <button class="social google">Log in with Google+</button>
+            <button class="social facebook">Log in with Facebook</button>
+            <button class="social twitter">Log in with Twitter</button>
+        </div>
+        <div class="or">OR</div>
+
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sky Insurance</title>
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
 </head>
 <p><h2>Make the most of your Insurance</h2></p>
 <body>
@@ -13,7 +57,36 @@
     <p>By clicking Agree & Join, you agree to the Sky Insurance User Agreement, Privacy Policy, and Cookie Policy.(hyperlink)</p>
     <p>Agree & Join(button)</p>
     <p>-------------- or ---------------</p>
-    <p> a Continue with Apple(button)</p>
+    <p>
+    
+        <button onclick="myFunction()"><img src="images/SSO.apple.png" alt="Submit" width="400" height="69"> </button><br>
+        <button onclick="myFunction()"><img src="images/SSO.google.png" alt="Submit" width="400" height="69"></button><br>
+        <button onclick="myFunction()"><img src="images/SSO.facebook.png" alt="Submit" width="400" height="69"></button><br>
+    
+    
+    Single Sign On with Google-->
+<!--
+    <div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
     <p> f Continue with Facebook(button)</p>
     <p> g Continue with Google(button)</p>
     
@@ -21,3 +94,4 @@
 
 </body>
 </html>
+-->

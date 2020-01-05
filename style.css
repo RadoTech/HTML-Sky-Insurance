@@ -39,3 +39,6 @@ input[type=text],[type=number] {
     margin: 4px 2px;
     cursor: pointer;
 }
+#sso {
+    border-radius: 15px;
+}
