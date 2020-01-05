@@ -120,15 +120,36 @@ button.social
     transition: 02s ease;
     cursor: pointer;
 }
+
 .facebook
 {
     background: #32508e;
+    background-image: url(images/f.logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .twitter
 {
     background: #55acee;
+    background-image: url(images/twitter2.logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .google
 {
     background: #dd4b39;
+    background-image: url(images/g+.logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.apple
+{
+    background: #F9F6EF;
+    background-image: url(images/apple-black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#apple-color
+{
+    color: #000000;
 }
