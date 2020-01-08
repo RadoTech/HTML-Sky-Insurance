@@ -17,6 +17,8 @@ aside {
 a { text-decoration: none; }
 body {
     background-color: lightsteelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 input[type=button] {
         background-color: #2977c9;
