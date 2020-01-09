@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Questionary</title>
+    <link rel="stylesheet" type="text/css" href="styleCheckbox.css">
 </head>
 <p>
     <h1>Motor Third Party Liability</h1>
@@ -19,32 +20,70 @@
     <img src="images/mtpl1.jpg" />
     <p>Please fill in the following information in order to receive your MTPL Quote:</p>
     <br>
-    <label>
-        Vehicle's Type:
-        <input type="radio" name="Vehicle's Type" value="car"> car
-        <input type="radio" name="Vehicle's Type" value="motorcycle"> motorcycle
-        <input type="radio" name="Vehicle's Type" value="truck"> truck
-        <input type="radio" name="Vehicle's Type" value="bus"> bus
-        <input type="radio" name="Vehicle's Type" value="trailer"> trailer
+    <div>
+        <label>
+            Vehicle's Type:
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="car"> car
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="motorcycle"> motorcycle
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="truck"> truck
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="bus"> bus
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="tractor"> tractor
+            <input type="radio" class="option-input radio" name="Vehicle's Type" value="trailer"> trailer
+            <br>
+        </label>
+    </div>
+    <br>
+    <div>
+    <form>
+        <label>
+            Engine's type:
+            <input type="radio" class="option-input radio" name="Engine's type" value="electric"> electric
+            <input type="radio" class="option-input radio" name="Engine's type" value="hybrid"> hybrid
+            <input type="radio" class="option-input radio" name="Engine's type" value="diesel"> diesel
+            <input type="radio" class="option-input radio" name="Engine's type" value="petrol"> petrol
+        </label>
         <br>
-    </label>
-
-    <label>
-        Age:
-        <input type="radio" name="Age" value="under 25"> under 25
-        <input type="radio" name="Age" value="25 - 65"> 25 - 65
-        <input type="radio" name="Age" value="over 65"> over 65
-        <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to
-            proceed with policy issuance.</mark>
+    </div>
+    <br>
+        <label>
+            Engine's volume:
+            <input type="number">
+        </label>
         <br>
-    </label>
-    <input type="button" value="Get quote!"/>
-    or
-    <input type="button" value="Proceed with policy issuance"/>
+        <label>
+            Plate number:
+            <input type="text">
+        </label>
+        <mark id="Note">Note: Please enter vehicle's plate number without free spaces!</mark>
+        <br>
+        <label>
+            Discount code:
+            <input type="radio" class="option-input radio" name="Discount code" value="YES"> YES
+            <input type="radio" class="option-input radio" name="Discount code" value="NO"> NO
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Age:
+            <input type="radio" class="option-input radio" name="Age" value="under 25"> under 25
+            <input type="radio" class="option-input radio" name="Age" value="25 - 65"> 25 - 65
+            <input type="radio" class="option-input radio" name="Age" value="over 65"> over 65
+            <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to
+                proceed with policy issuance.</mark>
+            <br>
+        </label>
+    </form>
     <br>
-    <br>
-    <br>
-    <br>
+    <form>
+        <input type="button" value="Get quote!" />
+        <input id="quote" type="number" />
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="Proceed with policy issuance" />
+    </form>
     <br>
     <form>
         <label>
@@ -67,7 +106,23 @@
             <input type="number">
         </label>
         <br>
-        <input type="button" value="Sign"/>
+        <label>
+            Vehicle's make:
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Vehicle's model:
+            <input type="text">
+        </label>
+        <br>
+        <label>
+            Vehicle's year of first registration:
+            <input type="number">
+        </label>
+        <br>
+        <input type="button" value="Sign" />
+    </form>
 </body>
 
 </html>
