@@ -72,3 +72,7 @@
 .option-input.radio::after {
   border-radius: 50%;
 }
+.option-input:checked~span.label-radio {
+  color: white;
+  font-weight: bold;
+  }

@@ -23,55 +23,70 @@
     <div>
         <label>
             Vehicle's Type:
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="car"> car
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="motorcycle"> motorcycle
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="truck"> truck
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="bus"> bus
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="tractor"> tractor
-            <input type="radio" class="option-input radio" name="Vehicle's Type" value="trailer"> trailer
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="car"><span
+                    class="label-radio">car</span></span>
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="motorcycle"><span
+                    class="label-radio">motorcycle</span></span>
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="truck"><span
+                    class="label-radio">truck</span></span>
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="bus"><span
+                    class="label-radio">bus</span></span>
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="tractor"><span
+                    class="label-radio">tractor</span></span>
+            <span><input type="radio" class="option-input radio" name="Vehicle's Type" value="trailer"><span
+                    class="label-radio">trailer</span></span>
             <br>
         </label>
     </div>
     <br>
     <div>
-    <form>
-        <label>
-            Engine's type:
-            <input type="radio" class="option-input radio" name="Engine's type" value="electric"> electric
-            <input type="radio" class="option-input radio" name="Engine's type" value="hybrid"> hybrid
-            <input type="radio" class="option-input radio" name="Engine's type" value="diesel"> diesel
-            <input type="radio" class="option-input radio" name="Engine's type" value="petrol"> petrol
-        </label>
-        <br>
+        <form>
+            <label>
+                Engine's type:
+                <span><input type="radio" class="option-input radio" name="Engine's type" value="electric"><span
+                        class="label-radio">electric</span></span>
+                <span><input type="radio" class="option-input radio" name="Engine's type" value="hybrid"><span
+                        class="label-radio">hybrid</span></span>
+                <span><input type="radio" class="option-input radio" name="Engine's type" value="diesel"><span
+                        class="label-radio">diesel</span></span>
+                <span><input type="radio" class="option-input radio" name="Engine's type" value="petrol"><span
+                        class="label-radio">petrol</span></span>
+            </label>
+            <br>
     </div>
     <br>
-        <label>
-            Engine's volume:
-            <input type="number">
-        </label>
+    <label>
+        Engine's volume:
+        <input type="number">
+    </label>
+    <br>
+    <label>
+        Plate number:
+        <input type="text">
+    </label>
+    <mark id="Note">Note: Please enter vehicle's plate number without free spaces!</mark>
+    <br>
+    <label>
+        Discount code:
+        <span><input type="radio" class="option-input radio" name="Discount code" value="YES"><span
+                class="label-radio">YES</span></span>
+        <span><input type="radio" class="option-input radio" name="Discount code" value="NO"><span
+                class="label-radio">NO</span></span>
+        <input type="text">
+    </label>
+    <br>
+    <label>
+        Age:
+        <span><input type="radio" class="option-input radio" name="Age" value="under 25"><span class="label-radio">under
+                25</span></span>
+        <span><input type="radio" class="option-input radio" name="Age" value="25 - 65"><span class="label-radio">25 -
+                65</span></span>
+        <span><input type="radio" class="option-input radio" name="Age" value="over 65"><span class="label-radio">over
+                65</span></span>
+        <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to
+            proceed with policy issuance.</mark>
         <br>
-        <label>
-            Plate number:
-            <input type="text">
-        </label>
-        <mark id="Note">Note: Please enter vehicle's plate number without free spaces!</mark>
-        <br>
-        <label>
-            Discount code:
-            <input type="radio" class="option-input radio" name="Discount code" value="YES"> YES
-            <input type="radio" class="option-input radio" name="Discount code" value="NO"> NO
-            <input type="text">
-        </label>
-        <br>
-        <label>
-            Age:
-            <input type="radio" class="option-input radio" name="Age" value="under 25"> under 25
-            <input type="radio" class="option-input radio" name="Age" value="25 - 65"> 25 - 65
-            <input type="radio" class="option-input radio" name="Age" value="over 65"> over 65
-            <mark id="Note">Note: this is only for quotation purposes. Personal Identification Number will be needed to
-                proceed with policy issuance.</mark>
-            <br>
-        </label>
+    </label>
     </form>
     <br>
     <form>
